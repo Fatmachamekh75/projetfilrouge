@@ -16,7 +16,8 @@ public class Etudiant {
 	private String nom;
 	private String prenom;
 	private String adresse;
-	private LocalDate datenaissance;;
+	private LocalDate datenaissance;
+	private String toto;
 	/** les accesseurs**/
 	public static int getNumprochainetu() {
 		return numprochainetu;
